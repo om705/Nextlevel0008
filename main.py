@@ -47,7 +47,7 @@ bot = Client(
     api_hash=api_hash,
     bot_token=bot_token)
       
-@bot.on_message(filters.command(["start"])&(filters.chat(auth_users)))
+@bot.on_message(filters.command(["start"]))
 async def start_handler(bot: Client, m: Message):        
         editable = await m.reply_text(
             "Hello 👋 **I am a simple video downloader bot**.\n\n**Developer** : उत्कर्ष\n**Language** : Python\n**Framework** : Pyrogram\n\n/txt - **To download from TXT file.**\n/terms - **To know our our terms and conditions.**")
