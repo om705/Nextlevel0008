@@ -5,7 +5,6 @@ aiohttp==3.8.1
 pyrogram
 ffmpeg
 tgcrypto
-requests
 pyromod==1.5
 yt-dlp
 aiohttp
